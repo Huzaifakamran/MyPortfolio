@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "M. Huzaifa",
   title: "Hi all, I'm Huzaifa",
-  subTitle: emoji("A passionate Software / Chatbot Developer 🚀 having an experience of building Web and Desktop based applications with JavaScript / Reactjs / Nodejs / Java and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1TJh2KPi9EwHQGs5nBCJOt09gms3n6t2P/view?usp=sharing"
+  subTitle: emoji("A passionate Data Analyst/ Software Engineer/ Chatbot Developer 🚀 having an experience of building Web and Desktop based applications with JavaScript / Reactjs / Nodejs / Java and some other cool libraries and frameworks."),
+  resumeLink: "https://drive.google.com/file/d/1ig6j5g5JgKBW_l4VYRrwB4meYLsHTsSl/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -18,10 +18,10 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/HuzaifaKamran",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/huzaifakamran/",
   gmail: "mohammadhuzaifa72@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/mohammad.huzaifa.1694",
+  facebook: "https://www.facebook.com/m.huzaifakamran",
   // Instagram and Twitter are also supported in the links!
   instagram: "https://www.instagram.com/huzaifa_kamran21"
 };
@@ -32,6 +32,7 @@ const skillsSection = {
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER AND CHATBOT DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
+    emoji("⚡ Develop highly interactive Dashboards by using Tableau and PowerBI"),
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web applications"),
     emoji("⚡ Develop chatbots that helps to grow your business"),
     emoji("⚡ Integration of third party services such as Firebase/ Google Cloud Platform (GCP) / Google Sheets etc.")
@@ -79,6 +80,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
+    {
+      skillName: "Tableau",
+      fontAwesomeClassname: "fab fa-Tableau"
+    },
    
   ]
 };
@@ -125,13 +130,18 @@ const workExperiences = {
         "SQL"
       ]
     }
-    //, {
-    //   role: "Front-End Developer",   
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.webp"),
-    //   date: "May 2017 – May 2018",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
+    , {
+      role: "Data Analyst",   
+      company: "Move Express And Logistics",
+      companylogo: require("./assets/images/Logo.png"),
+      date: "Oct 2020 – Present",
+      desc: "Working as a Data Analyst and Technical Support Officer",
+      descBullets: [
+        "Tableau Visualization",
+        "Mysql",
+        "Tech Support"
+      ]
+    },
     // {
     //   role: "Software Engineer Intern",  
     //   company: "Airbnb",
