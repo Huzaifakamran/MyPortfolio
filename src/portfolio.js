@@ -171,7 +171,8 @@ const bigProjects = {
     {
       image: require("./assets/images/logo.jpg"),
       link: "https://www.facebook.com/personageclothingbrand/"
-    }
+    },
+    
   ]
 };
 
@@ -208,7 +209,17 @@ const achievementSection = {
         { name: "View Certificate", url: "https://www.coursera.org/account/accomplishments/certificate/A9ETFH3X6JDZ?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate" },
         // { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
       ]
-    }
+    },
+    
+      {
+        title: "Data Analysis",
+        subtitle: "Certified Data Analyst is rigorous training scheme with 70+ hours content taught to professionals on flexible weekends.",
+        image: require("./assets/images/DataAnalyst.jpg"),
+        footerLink: [
+          { name: "View Certificate", url: "https://media-exp1.licdn.com/dms/image/C4D2DAQEFN96Drs8Xkg/profile-treasury-image-shrink_1280_1280/0/1606320478042?e=1619992800&v=beta&t=OCfzN5yU4xjckvDxwvhvpdH_pfBlfx3XkBxg_VWYMlg" },
+          
+        ]
+      },
   ]
 };
 
